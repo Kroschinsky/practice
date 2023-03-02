@@ -34,3 +34,7 @@
 #Project Files
 *.vcx*
 *.sln
+
+#Folders
+/debug
+/release
