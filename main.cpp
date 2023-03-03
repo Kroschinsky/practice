@@ -51,7 +51,7 @@
 // call functions in final of .h files to run each algorithm
 int main()
 {
-
+    float teste = pow(9, -2) * pow(6, 2);
 
     int x = 0;
 }

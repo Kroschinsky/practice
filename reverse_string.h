@@ -36,6 +36,24 @@ void reverseString(std::vector<char>& s)
 	}
 }
 
+void reverseString2(std::vector<char>& s)
+{
+	int size = s.size();
+	int left = 0;
+	int right = size - 1;
+	int temp;
+
+	while (left < right)
+	{
+		temp = s[left];
+		s[left] = s[right];
+		s[right] = temp;
+
+		left++;
+		right--;
+	}
+}
+
 /*
 	std::vector<char> v1 = { 'h','e','l','l','o' };
 	reverseString(v1);
