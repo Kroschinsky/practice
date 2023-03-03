@@ -67,3 +67,24 @@ ListNode* ListNode::createListNodeFromVector(std::vector<int> vec)
 
 	return start;
 }
+
+void ListNode::ListCycle(ListNode* l, int pos)
+{
+	ListNode* connect = nullptr;
+	int count = 0;
+
+	while (l)
+	{
+		if (count == pos)
+			connect = l;
+
+		count++;
+		if (l->next == nullptr)
+		{
+			l->next = connect;
+			break;
+		}
+
+		l = l->next;
+	}
+}

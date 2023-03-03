@@ -6,7 +6,6 @@
 #include<stack>
 #include<climits>
 
-
 #include "multiples3or5.h"
 #include "reverse_polish_notation.h"
 #include "two_sum.h"
@@ -39,7 +38,17 @@
 #include "remove_element.h"
 #include "squares_sorted_array.h"
 #include "rotate_array.h"
+#include "move_zeroes.h"
+#include "two_sum_input_array_sorted.h"
+#include "length_last_word.h"
+#include "middle_linked_list.h"
+#include "reverse_string.h"
+#include "reverse_words_string_3.h"
+#include "add_binary.h"
+#include "linked_list_cycle_2.h"
 
+
+// call functions in final of .h files to run each algorithm
 int main()
 {
 

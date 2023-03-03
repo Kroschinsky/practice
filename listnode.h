@@ -20,6 +20,7 @@ public:
 
 	static void printListNode(ListNode* l);
 	static ListNode* createListNodeFromVector(std::vector<int> vec);
+	static void ListCycle(ListNode* l, int pos);
 
 	int val;
 	ListNode* next;
