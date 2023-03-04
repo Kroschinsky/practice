@@ -47,13 +47,13 @@
 #include "add_binary.h"
 #include "linked_list_cycle_2.h"
 #include "sqrtx.h"
+#include "longest_palindrome.h"
 
 // call functions in final of .h files to run each algorithm
 int main()
 {
-    int i1 = mySqrt2(4);
-    int i2 = mySqrt2(8);
-    int i3 = mySqrt2(INT_MAX);
+
+
 
     int x = 0;
 }
