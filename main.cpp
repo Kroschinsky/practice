@@ -48,11 +48,15 @@
 #include "linked_list_cycle_2.h"
 #include "sqrtx.h"
 #include "longest_palindrome.h"
+#include "best_time_buy_or_sell_stock.h"
+#include "remove_nth_node_from_end_list.h"
+#include "climbing_stairs.h"
+#include "nary_tree_preorder_traversal.h"
+#include "binary_tree_level_order_traversal.h"
 
 // call functions in final of .h files to run each algorithm
 int main()
 {
-
 
 
     int x = 0;

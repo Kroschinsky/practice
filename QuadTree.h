@@ -20,11 +20,14 @@ public:
 
     bool m_val = false;
     bool m_isLeaf = false;
+
     QuadTreeNode* m_topLeft = nullptr;
     QuadTreeNode* m_topRight = nullptr;
     QuadTreeNode* m_bottomLeft = nullptr;
     QuadTreeNode* m_bottomRight = nullptr;
 
     //QuadTreeNode* m_parent = nullptr;
+
+private:
 };
 
