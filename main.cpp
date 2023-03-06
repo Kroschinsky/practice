@@ -1,10 +1,12 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <algorithm>
 #include <set>
-#include<cmath>
-#include<stack>
-#include<climits>
+#include <map>
+#include <stack>
+#include <cmath>
+#include <climits>
 
 #include "multiples3or5.h"
 #include "reverse_polish_notation.h"
@@ -53,6 +55,13 @@
 #include "climbing_stairs.h"
 #include "nary_tree_preorder_traversal.h"
 #include "binary_tree_level_order_traversal.h"
+#include "merge_sorted_array.h"
+#include "permutation_string.h"
+#include "contains_duplicate.h"
+#include "valid_anagram.h"
+#include "group_anagrams.h"
+#include "flood_fill.h"
+#include "max_area_island.h"
 
 // call functions in final of .h files to run each algorithm
 int main()

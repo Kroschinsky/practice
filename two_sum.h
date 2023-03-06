@@ -47,9 +47,10 @@ std::vector<int> twoSum2(std::vector<int> nums, int target)
 {
 	std::vector<int> ret;
 	std::unordered_map<int, int> map;
+	int size = nums.size();
 	int diff = 0;
 
-	for (int i = 0; i < nums.size(); i++)
+	for (int i = 0; i < size; i++)
 	{
 		diff = target - nums[i];
 		auto pair = map.find(diff);

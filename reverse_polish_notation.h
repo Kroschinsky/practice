@@ -28,7 +28,9 @@ std::vector<std::string> token_split_string(std::string text, char separator)
 	std::vector<std::string> ret;
 	std::string token = "";
 
-	for (int i = 0; i < text.size(); i++)
+	int size = text.size();
+
+	for (int i = 0; i < size; i++)
 	{
 		if (text[i] == separator)
 		{
