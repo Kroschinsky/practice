@@ -62,11 +62,15 @@
 #include "group_anagrams.h"
 #include "flood_fill.h"
 #include "max_area_island.h"
+#include "topk_frequent_elements.h"
+#include "binary_tree_inorder_traversal.h"
+#include "merge_two_binary_trees.h"
+#include "symmetric_tree.h"
 
 // call functions in final of .h files to run each algorithm
 int main()
 {
 
-
+    
     int x = 0;
 }

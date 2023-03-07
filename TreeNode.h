@@ -15,6 +15,7 @@ public:
 	~TreeNode();
 
 	static TreeNode* createFromVector(std::vector<int> vec);
+	static TreeNode* createFromVector2(std::vector<int> vec);
 
 	int m_val = 0;
 	TreeNode* m_left = nullptr;

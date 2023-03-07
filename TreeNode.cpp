@@ -1,5 +1,7 @@
 #include "TreeNode.h"
 
+#include <queue>
+
 TreeNode::TreeNode() 
 	: m_val(0)
 	, m_left(nullptr)
@@ -31,6 +33,64 @@ TreeNode::~TreeNode()
 }
 
 TreeNode* TreeNode::createFromVector(std::vector<int> vec)
+{
+	int size = vec.size();
+	if (size == 0)
+		return nullptr;
+
+	std::queue<TreeNode*> q;
+
+	int index = 2;
+	TreeNode* node = new TreeNode(vec[0]);
+	q.push(node);
+
+	while (true)
+	{
+		int q_size = q.size();
+		if (q_size == 0)
+			break;
+
+		for (int i = 0; i < q_size; i++)
+		{
+			auto n = q.front();
+			q.pop();
+
+			if (size <= index)
+				continue;
+
+			if (vec[index] == 0)
+			{
+				index++;
+				break;
+			}
+
+			auto n_node = new TreeNode(vec[index]);
+			n->m_left = n_node;
+			q.push(n_node);
+
+			index++;
+
+			if (size <= index)
+				continue;
+
+			if (vec[index] == 0)
+			{
+				index++;
+				break;
+			}
+
+			n_node = new TreeNode(vec[index]);
+			n->m_right = n_node;
+			q.push(n_node);
+
+			index++;
+		}
+	}
+
+	return node;
+}
+
+TreeNode* TreeNode::createFromVector2(std::vector<int> vec)
 {
 	int size = vec.size();
 	if (size == 0)
