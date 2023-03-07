@@ -1,2 +1,2 @@
-# pratice
-C++ Code Pratice Algorithm
+# Practice
+C++ Code Practice Algorithm
