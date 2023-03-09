@@ -66,11 +66,19 @@
 #include "binary_tree_inorder_traversal.h"
 #include "merge_two_binary_trees.h"
 #include "symmetric_tree.h"
+#include "container_with_most_water.h"
+#include "validate_binary_search_tree.h"
+#include "number_of_islands.h"
+#include "matrix_01.h"
+#include "even_fibonacci_numbers.h"
+#include "largest_prime_factor.h"
+
+#include "populating_next_right_pointers_in_each_node.h"
 
 // call functions in final of .h files to run each algorithm
 int main()
 {
 
-    
-    int x = 0;
+
+    return 0;
 }
