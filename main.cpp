@@ -72,6 +72,13 @@
 #include "matrix_01.h"
 #include "even_fibonacci_numbers.h"
 #include "largest_prime_factor.h"
+#include "largest_palindrome_product.h"
+#include "smallest_multiple.h"
+#include "sum_square_difference.h"
+#include "fibonacci_number.h"
+#include "rotting_oranges.h"
+
+
 
 #include "populating_next_right_pointers_in_each_node.h"
 
