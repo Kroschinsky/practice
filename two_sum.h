@@ -22,6 +22,7 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 */
 
+// brutal force
 std::vector<int> twoSum(std::vector<int> nums, int target)
 {
 	int size = nums.size();

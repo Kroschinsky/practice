@@ -77,15 +77,19 @@
 #include "sum_square_difference.h"
 #include "fibonacci_number.h"
 #include "rotting_oranges.h"
-
-
+#include "valid_palindrome.h"
+#include "find_index_first_occurrence_string.h"
+#include "pascal_triangle.h"
+#include "majority_element.h"
+#include "min_cost_climbing_stairs.h"
+#include "unique_paths.h"
+#include "three_sum.h"
 
 #include "populating_next_right_pointers_in_each_node.h"
 
 // call functions in final of .h files to run each algorithm
 int main()
 {
-
 
     return 0;
 }
