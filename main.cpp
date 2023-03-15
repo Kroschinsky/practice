@@ -84,12 +84,19 @@
 #include "min_cost_climbing_stairs.h"
 #include "unique_paths.h"
 #include "three_sum.h"
+#include "find_all_anagrams_string.h"
+#include "longest_pepeating_character_replacemente.h"
+#include "regular_expression.matching.h"
+#include "bulls_and_cows.h"
+#include "single_number.h"
 
 #include "populating_next_right_pointers_in_each_node.h"
 
 // call functions in final of .h files to run each algorithm
-int main()
+int main(int argc, char* argv[])
 {
+
 
     return 0;
 }
+
