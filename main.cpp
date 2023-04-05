@@ -89,14 +89,22 @@
 #include "regular_expression.matching.h"
 #include "bulls_and_cows.h"
 #include "single_number.h"
+#include "reverse_bits.h"
+#include "number_of_one_bits.h"
+#include "happy_number.h"
+#include "missing_number.h"
+#include "excel_sheet_column_number.h"
+#include "intersection_two_arrays_ii.h"
+#include "power_of_three.h"
+#include "first_unique_character_in_string.h"
 
 #include "populating_next_right_pointers_in_each_node.h"
+
 
 // call functions in final of .h files to run each algorithm
 int main(int argc, char* argv[])
 {
 
-
+    
     return 0;
 }
-
