@@ -97,6 +97,8 @@
 #include "intersection_two_arrays_ii.h"
 #include "power_of_three.h"
 #include "first_unique_character_in_string.h"
+#include "fizz_buzz.h"
+#include "letter_combinations_of_phone_number.h"
 
 #include "populating_next_right_pointers_in_each_node.h"
 
@@ -104,7 +106,9 @@
 // call functions in final of .h files to run each algorithm
 int main(int argc, char* argv[])
 {
-
+    auto v1 = letterCombinations("23");
+    auto v2 = letterCombinations("");
+    auto v3 = letterCombinations("2");
     
     return 0;
 }
