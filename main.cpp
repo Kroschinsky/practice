@@ -101,7 +101,10 @@
 #include "letter_combinations_of_phone_number.h"
 #include "generate_parentheses.h"
 #include "intersection_two_arrays.h"
-
+#include "minimum_sum_four_digit_number_after_splitting_digits.h"
+#include "merge_strings_alternately.h"
+#include "contains_duplicate_II.h"
+#include "valid_perfect_square.h"
 
 #include "populating_next_right_pointers_in_each_node.h"
 
@@ -109,6 +112,7 @@
 // call functions in final of .h files to run each algorithm
 int main(int argc, char* argv[])
 {
-    
+
+
     return 0;
 }
