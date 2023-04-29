@@ -19,6 +19,7 @@
 #include "string_to_int.h"
 #include "palindrome_number.h"
 #include "roman_to_int.h"
+#include "integer_to_roman.h"
 #include "vending_machine.h"
 #include "word_sequence.h"
 #include "longest_common_prefix.h"
@@ -105,6 +106,8 @@
 #include "merge_strings_alternately.h"
 #include "contains_duplicate_II.h"
 #include "valid_perfect_square.h"
+#include "third_maximum_number.h"
+
 
 #include "populating_next_right_pointers_in_each_node.h"
 
