@@ -36,7 +36,8 @@
 *.sln
 
 #Folders
-/debug
-/release
-/x64
-/.vs
+debug
+release
+x64
+.vs
+
