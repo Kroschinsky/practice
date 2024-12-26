@@ -8,6 +8,7 @@
 #include <cmath>
 #include <climits>
 
+/*
 #include "multiples3or5.h"
 #include "reverse_polish_notation.h"
 #include "two_sum.h"
@@ -108,6 +109,14 @@
 #include "valid_perfect_square.h"
 #include "third_maximum_number.h"
 #include "divide_two_integers.h"
+#include "best_time_buy_or_sell_stock_II.h"
+#include "remove_duplicates_from_sorted_array_II.h"
+#include "jump_game.h"
+#include "jump_game_II.h"
+*/
+
+
+
 
 #include "populating_next_right_pointers_in_each_node.h"
 
@@ -115,7 +124,9 @@
 // call functions in final of .h files to run each algorithm
 int main(int argc, char* argv[])
 {
-
+    int output_1 = jump({ 2,3,1,1,4 });
+    int output_2 = jump({ 2,3,0,1,4 });
 
     return 0;
 }
+

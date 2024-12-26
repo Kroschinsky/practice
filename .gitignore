@@ -38,4 +38,5 @@
 #Folders
 /debug
 /release
+/x64
 /.vs
