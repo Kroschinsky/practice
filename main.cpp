@@ -124,8 +124,6 @@
 // call functions in final of .h files to run each algorithm
 int main(int argc, char* argv[])
 {
-    int output_1 = jump({ 2,3,1,1,4 });
-    int output_2 = jump({ 2,3,0,1,4 });
 
     return 0;
 }

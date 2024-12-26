@@ -99,3 +99,8 @@ int jump2(std::vector<int> nums)
 
 	return jumps;
 }
+
+/*
+	int output_1 = jump({ 2,3,1,1,4 });
+	int output_2 = jump({ 2,3,0,1,4 });
+*/
