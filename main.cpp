@@ -117,7 +117,9 @@
 #include "h_index_II.h"
 #include "minimum_size_subarray_sum.h"
 #include "find_all_numbers_disappeared_in_an_array.h"
+#include "candy.h"
 */
+
 
 #include "populating_next_right_pointers_in_each_node.h"
 
@@ -125,9 +127,7 @@
 // call functions in final of .h files to run each algorithm
 int main(int argc, char* argv[])
 {
-    std::vector<int> output_1 = findDisappearedNumbers({ 4,3,2,7,8,2,3,1 });
-    std::vector<int> output_2 = findDisappearedNumbers({ 1,1 });
-    
+
 
     return 0;
 }
