@@ -120,8 +120,10 @@
 #include "candy.h"
 #include "gas_station.h"
 #include "minimum_window_substring.h"
-#include "substring_with_concatenation_of_all_words.h"
 */
+
+#include "substring_with_concatenation_of_all_words.h"
+
 
 
 #include "populating_next_right_pointers_in_each_node.h"
@@ -130,7 +132,13 @@
 // call functions in final of .h files to run each algorithm
 int main(int argc, char* argv[])
 {
-
+    std::vector<int> output_1 = findSubstring("barfoothefoobarman", { "foo","bar" });           // [0,9]
+    std::vector<int> output_2 = findSubstring("wordgoodgoodgoodbestword", { "word","good","best","word" }); // []
+    std::vector<int> output_3 = findSubstring("barfoofoobarthefoobarman", { "bar","foo","the" });   // [6,9,12]
+    std::vector<int> output_4 = findSubstring("wordgoodgoodgoodbestword", { "word","good","best","good" }); // [8]
+    std::vector<int> output_5 = findSubstring("lingmindraboofooowingdingbarrwingmonkeypoundcake", { "fooo","barr","wing","ding","wing" });    // [13]
+    std::vector<int> output_6 = findSubstring("a", { "a" });           // [0]
+    std::vector<int> output_7 = findSubstring("ababaab", { "ab","ba","ba" });           // [0]
 
     return 0;
 }
